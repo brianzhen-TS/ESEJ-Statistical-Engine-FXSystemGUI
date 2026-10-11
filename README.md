@@ -1,23 +1,23 @@
-# ESEJ engine (Eta Statistical Engine Java ver.)
+# ESEJ engine FXSystem GUI
 ESEJ project, or I originally called it Eta system Java edition, was a statistical multipurpose toolkit for Java-native builds and projects.
 It was designed to extend R language(not included in the current version) and other JVM statistical packages like Apache
 Commons Statistics, Smile, and JFreeChart data visualization package for building
 GUIs (via JavaFX or Java Swing) and Web/Cloud applications (using Spring frameworks like Spring boot and Spring cloud; though
 currently not included in alpha version) and direct usages, as well as providing options for either accessing R (multi-language; via Rserve) or using
 native built-in functions (develop your project entirely in Java).
-## Included UIs
-In the current version of the ESEJ engine:
-* FXSystem - The main GUI of ESEJ engine enabling users to interact with the engine. Enable users to:
-    * Plot univariate distributions(in the main page of the GUI) - it can plot various distributions and export the plot as .png file or extract
+This repository was for FXSystem GUI, which is powered by it.
+## FXSystem GUI
+The FXSystem GUI is the main GUI of the ESEJ engine written in Java and using JavaFX. It enable users to interact with the engine via a desktop GUI. Enable users to
+* Plot univariate distributions(in the main page of the GUI) - it can plot various distributions and export the plot as .png file or extract
       the data to Excel file;
-    * Compare (Two/Multi; up to 10) multiple distributions to visualize the differences between each data given (assume that
+* Compare (Two/Multi; up to 10) multiple distributions to visualize the differences between each data given (assume that
       they are distributed in a specific pattern); In the Two-comparator page, you can enable ECDF plots mode to determine goodness-of-fit
       of a sample given a specified distribution. Similar to Main page, the Two-comparator page can also export the plot as .png file but cannot extract
       the data.
-    * Plot multivariate distributions(2D/3D) - enables users to plot multivariate distributions(only bivariate; current version
+* Plot multivariate distributions(2D/3D) - enables users to plot multivariate distributions(only bivariate; current version
       only allow users to plot bivariate Normal) to contour heat Canvas(2D) or in a meshView(3D). Only 2D page allow user to export
       the canvas as .png file.
-    * Data Analyzer / Power Analyzer (currently disabled) / Regression visualizer - Enables users to perform data visualization, power analysis,
+* Data Analyzer / Power Analyzer (currently disabled) / Regression visualizer - Enables users to perform data visualization, power analysis,
       and regression visualization in the FXSystem. These pages are one of the advanced tool this application provides. All pages
       (except power analysis page because it won't generate any charts) can export the generated chart as .png file.
 * Note: In the current version of the application, you can't rename or restyle the generated charts. I'll add these
