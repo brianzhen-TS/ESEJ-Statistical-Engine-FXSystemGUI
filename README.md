@@ -5,7 +5,7 @@ Commons Statistics, Smile, and JFreeChart data visualization package for buildin
 GUIs (via JavaFX or Java Swing) and Web/Cloud applications (using Spring frameworks like Spring boot and Spring cloud; though
 currently not included in alpha version) and direct usages, as well as providing options for either accessing R (multi-language; via Rserve) or using
 native built-in functions (develop your project entirely in Java).
-This repository was for FXSystem GUI, which is powered by it.
+This repository was for FXSystem GUI, which was powered by the engine.
 ## FXSystem GUI
 The FXSystem GUI is the main GUI of the ESEJ engine written in Java and using JavaFX. It enable users to interact with the engine via a desktop GUI. Enable users to
 * Plot univariate distributions(in the main page of the GUI) - it can plot various distributions and export the plot as .png file or extract
